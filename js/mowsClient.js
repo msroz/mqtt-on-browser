@@ -34,7 +34,7 @@
 
         client.on('message', function (topic, message, packet) {
             //console.log(packet);
-            appendLog("[on message] topic:" + topic + " message:" + message + "retain:" + packet.retain);
+            appendLog("[on message] topic:" + topic + " message:" + message + " retain:" + packet.retain);
         });
         client.on('error', function (e) {
             appendLog("[on error]" + e);
