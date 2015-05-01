@@ -14,13 +14,13 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!--link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"-->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/skeleton.css">
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/chat.css">
 </head>
 <body>
   <div class="section">
@@ -28,9 +28,11 @@
         <div class="row">
           <div class="twelve columns">
             <h1>Chat</h1>
+            <span><a href="./index.html">Go to Top.</a></span>
             <div class="input-form">
-                <input class="u-full-width" type="text" value=""></input>
-                <button class="button">Post</button>
+                <input class="u-full-width input-text" min="5" max="10" type="text" value="" required="true"></input>
+                <button class="button btn btn-post">Post</button>
+                <button class="button btn btn-aa" value="щ(ﾟДﾟщ)">щ(ﾟДﾟщ)</button>
             </div>
             <div class="room">
             </div>
@@ -42,6 +44,6 @@
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="./js/modules/mows.js"></script>
-  <script src="./js/mowsClient.js"></script>
+  <script src="./js/chat.js"></script>
 </body>
 </html>
